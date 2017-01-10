@@ -40,7 +40,7 @@ Pie chart:
 
 Scatter chart:
 
-`import {ScatterChart} from 'react-easy-chart';`
+`import {ScatterplotChart} from 'react-easy-chart';`
 
 Chart Legend:
 
