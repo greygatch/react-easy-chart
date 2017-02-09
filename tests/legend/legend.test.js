@@ -1,7 +1,7 @@
 /* eslint-env node, mocha */
 import {should as chaiShould, expect} from 'chai';
 import React from 'react';
-import TestUtils from 'react/lib/ReactTestUtils';
+import TestUtils from 'react-test-utils';
 import {Legend} from 'react-easy-chart';
 import {schemeCategory20} from 'd3';
 

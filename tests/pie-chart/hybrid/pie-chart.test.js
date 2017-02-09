@@ -3,7 +3,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TestUtils from 'react/lib/ReactTestUtils';
+import TestUtils from 'react-test-utils';
 import chai, { expect } from 'chai'; // { should as shouldFactory, expect} from 'chai';
 import sinon from 'sinon';
 import spies from 'chai-spies';
