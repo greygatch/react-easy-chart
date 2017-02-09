@@ -19,6 +19,7 @@ import merge from 'lodash.merge';
 
 
 const color = schemeCategory20;
+console.log('LOG: How to construct pie chart?' );
 // pie().value((d) => d.value).sort(null)
 
 const getSliceFill = (d, i) => (
