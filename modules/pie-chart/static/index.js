@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  scale,
+  schemeCategory20,
   layout,
   svg,
   select,
@@ -14,7 +14,7 @@ import { createElement } from 'react-faux-dom';
 import { Style } from 'radium';
 import merge from 'lodash.merge';
 
-const color = scale.category20();
+const color = schemeCategory20;
 const pie = layout.pie()
   .value((d) => d.value)
   .sort(null);

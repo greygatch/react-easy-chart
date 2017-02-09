@@ -3,7 +3,7 @@ import {should as chaiShould, expect} from 'chai';
 import React from 'react';
 import TestUtils from 'react/lib/ReactTestUtils';
 import {Legend} from 'react-easy-chart';
-import {scale} from 'd3';
+import {schemeCategory20} from 'd3';
 
 const should = chaiShould();
 
@@ -25,7 +25,7 @@ const config = [
   {color: 'tomato'}
 ];
 
-const colors = scale.category20().range();
+const colors = schemeCategory20;
 
 describe('Legend component', () => {
   it('Should be defined', () => {

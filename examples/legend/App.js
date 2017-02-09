@@ -261,7 +261,7 @@ export default class LegendContainer extends React.Component {
           <section id="config">
             <h2>Config</h2>
             <p>
-              React Easy Charts use <a href="https://github.com/mbostock/d3/wiki/Ordinal-Scales#category20">d3.scale.category20</a>
+              React Easy Charts use <a href="https://github.com/d3/d3-scale/blob/master/README.md#schemeCategory20">d3.scale.schemeCategory20</a>
               to generate a list of default colours. If your chart has a custom colour scheme, pass
               this colour array to the config property.
             </p>

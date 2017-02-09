@@ -1,6 +1,6 @@
 import React from 'react';
 import { Style } from 'radium';
-import { scale } from 'd3';
+import { schemeCategory20 } from 'd3';
 import {
   createUniqueID
 } from '../shared';
@@ -8,7 +8,7 @@ import merge from 'lodash.merge';
 
 import defaultStyles from './defaultStyles';
 
-const colors = scale.category20().range();
+const colors = schemeCategory20;
 
 export default class Legend extends React.Component {
 

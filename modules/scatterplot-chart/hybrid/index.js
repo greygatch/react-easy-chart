@@ -7,7 +7,7 @@ import {
   event as lastEvent,
   min,
   max,
-  scale,
+  schemeCategory20,
   select,
   svg,
   time
@@ -27,7 +27,7 @@ import {
 
 const dateParser = {};
 
-const color = scale.category20();
+const color = schemeCategory20;
 
 const axisMargin = 18;
 

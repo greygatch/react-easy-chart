@@ -5,7 +5,7 @@ import {
   select,
   svg,
   time,
-  scale,
+  schemeCategory20,
   max
 } from 'd3';
 import {
@@ -26,7 +26,7 @@ import merge from 'lodash.merge';
 
 const dateParser = {};
 
-const colorScale = scale.category20();
+const colorScale = schemeCategory20;
 
 export default class BarChart extends React.Component {
 
