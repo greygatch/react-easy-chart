@@ -29,7 +29,7 @@ const legendStyles = {
   }
 };
 
-const colors = d3.scale.category10().range();
+const colors = d3.schemeCategory10;
 
 class Legend extends React.Component {
 

@@ -1,12 +1,13 @@
 import React from 'react';
 import {
-  scale,
-  layout,
+  schemeCategory20,
   svg,
+  pie,
   select,
   event as lastEvent,
   interpolate
 } from 'd3';
+
 import {
   createUniqueID,
   defaultStyles
@@ -15,10 +16,10 @@ import { createElement } from 'react-faux-dom';
 import { Style } from 'radium';
 import merge from 'lodash.merge';
 
-const color = scale.category20();
-const pie = layout.pie()
-  .value((d) => d.value)
-  .sort(null);
+
+
+const color = schemeCategory20;
+// pie().value((d) => d.value).sort(null)
 
 const getSliceFill = (d, i) => (
   (d.data.color)
